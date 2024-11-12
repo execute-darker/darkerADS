@@ -18,7 +18,7 @@
 <h2 id="a">🎯 Rule Subscription</h2>
 
 ```
-Last updated: 2024-11-13 07:14:18 (UTC+8) 
+Last updated: 2024-11-13 07:27:48 (UTC+8) 
 
 Adblock rule count: 408207 
 ``` 
