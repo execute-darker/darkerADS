@@ -9,20 +9,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-          
-      - name: Update Rules
+        
+      - name: Download Rules
         continue-on-error: true
         run: |
-          bash ./data/update.sh
+          python ./data/python/dl.py
+          
+      - name: Merge Rules
+        run: |
+          python ./data/python/merge.py
 
-      - name: Set up Git
+      - name: Update Title&ReadMe
+        run: |
+          python ./data/python/title.py
+          python ./data/python/clean-readme.py
+
+      - name: Commit and Push changes
         run: |
           git init
           git config --global user.name "execute-darker"
           git config --global user.email "956853745@qq.com"
-
-      - name: Commit and Push changes
-        run: |
           git add --all
           git branch -m main
           git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S') (UTC+8)"
