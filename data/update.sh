@@ -17,7 +17,7 @@ https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/data
 rm -rf "$DIR"
 mkdir "$DIR"
 for i in $list; do
-    ${0%/*}/curl -vLk $i -o "$DIR/$(date +%s).txt"
+    curl -vLk $i -o "$DIR/$(date +%s).txt"
 done
 rm -rf "$DIR/all.txt"
 for i in $(ls -1 "$DIR"); do
