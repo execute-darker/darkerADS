@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR=${0%/*}/data/temp
+DIR="./data/temp"
 list="
 https://gp.adrules.top/adblock_plus.txt
 https://gp.adrules.top/dns.txt  
@@ -14,16 +14,14 @@ https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/data
 https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt
 "
 
-rm -rf "$DIR"
 mkdir "$DIR"
 for i in $list; do
     curl -vLk $i -o "$DIR/$(date +%s).txt"
 done
-rm -rf "$DIR/all.txt"
 for i in $(ls -1 "$DIR"); do
     cat "$DIR/$i" >>"$DIR/all.txt"
     rm -rf "$DIR/$i"
 done
 sort -u "$DIR/all.txt" >"$DIR/temp.txt"
-mv "$DIR/temp.txt" "$DIR/../../adblock.txt"
+mv "$DIR/temp.txt" "./adblock.txt"
 rm -rf "$DIR"
