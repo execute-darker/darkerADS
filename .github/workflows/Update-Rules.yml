@@ -14,16 +14,19 @@ jobs:
         continue-on-error: true
         run: |
           bash ./data/update.sh
-          
-      - name: Git push assets to Github
+
+      - name: Set up Git
         run: |
           git init
-          git config --local user.email "956853745@qq.com"
-          git config --local user.name "execute-darker"
-          git branch -m main
+          git config --global user.name "execute-darker"
+          git config --global user.email "956853745@qq.com"
+
+      - name: Commit and Push changes
+        run: |
           git add --all
+          git branch -m main
           git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S') (UTC+8)"
-          git push -u origin -f
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/execute-darker/darker_adblock.git HEAD:main          
 
       - name: Delete workflow runs 
         uses: Mattraks/delete-workflow-runs@main
