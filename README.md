@@ -26,8 +26,8 @@
 <summary>规则列表</summary>
 <ul>
 
-- **[规则(Github)](https://raw.githubusercontent.com/execute-darker/darker_adblock/main/adblock.txt)**
-- **[规则(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/execute-darker/darker_adblock//main/adblock.txt)**
+- **[规则(Github)](https://raw.githubusercontent.com/execute-darker/darker_adblock/main/data/rules/adblock.txt)**
+- **[规则(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/execute-darker/darker_adblock//main/data/rules/adblock.txt)**
 
 </ul>
 </details>

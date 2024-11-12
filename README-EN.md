@@ -26,7 +26,7 @@ Adblock rule count: 408207
 <summary>Rule List</summary>
 <ul>
 
-- **[Rule(Github)](https://raw.githubusercontent.com/execute-darker/darker_adblock/main/adblock.txt)**
+- **[Rule(Github)](https://raw.githubusercontent.com/execute-darker/darker_adblock/main/data/rules/adblock.txt)**
 </ul>
 </details>
 
