@@ -32,7 +32,7 @@ jobs:
           git add --all
           git branch -m main
           git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S') (UTC+8)"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/execute-darker/darker_adblock.git HEAD:main          
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/execute-darker/darkerADS.git HEAD:main          
 
       - name: Delete workflow runs 
         uses: Mattraks/delete-workflow-runs@main

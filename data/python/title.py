@@ -21,7 +21,7 @@ for file_path in file_list:
     # 在文件顶部插入内容
     new_content = f"[Adblock Plus 2.0]\n" \
                   f"! Title: darkerADS\n" \
-                  f"! Homepage: https://github.com/execute-darker/darker_adblock\n" \
+                  f"! Homepage: https://github.com/execute-darker/darkerADS\n" \
                   f"! Expires: 12 Hours\n" \
                   f"! Version: {beijing_time} (UTC+8)\n" \
                   f"! Description: 适用于AdGuard的去广告规则, 合并优质上游规则并去重整理排列\n" \

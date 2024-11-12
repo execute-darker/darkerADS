@@ -25,7 +25,7 @@
 <summary>ルール一覧</summary>
 <ul>
 
-- **[ルール(Github)](https://raw.githubusercontent.com/execute-darker/darker_adblock/main/data/rules/adblock.txt)**
+- **[ルール(Github)](https://raw.githubusercontent.com/execute-darker/darkerADS/main/data/rules/adblock.txt)**
 
 </ul>
 </details>
