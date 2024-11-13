@@ -5,6 +5,18 @@
 <div align="center">
 <h1 align="center">darkerADS<br>A PPPowerful Adblock Rule</h1>
 
+<p>
+  <a href="https://github.com/execute-darker/darkerADS">
+    <img src="https://img.shields.io/github/last-commit/execute-darker/darkerADS?style=flat-square" alt="last update" />
+  </a>
+  <a href="https://github.com/execute-darker/darkerADS/issues">
+    <img src="https://img.shields.io/github/issues/execute-darker/darkerADS?style=flat-square" alt="open issues" />
+  </a>
+  <a href="https://bgm.tv/group/topic/406820">
+    <img src="https://img.shields.io/badge/license-LC1.0-%23F5ABB9?style=flat-square&link=https%3A%2F%2Fbgm.tv%2Fgroup%2Ftopic%2F406820" alt="LC1.0 License" />
+  </a>
+</p>
+
 <h4>
     <a href="#a">Rule Subscription</a>
   <span> · </span>
@@ -47,6 +59,8 @@ I Forgot
 
 [Ad Blocker Test](https://d3ward.github.io/toolz/adblock.html)
 
-## ⭐ Thanks
+<h2 id="d">⚖️ Copyright Notice</h2> 
 
-https://github.com/8680/GOODBYEADS/
+Licensed under LC1.0. For details, please refer to [LICENSE](https://bgm.tv/group/topic/406820).
+
+<img src="https://static.lolicommons.org/RL-ES-GR.svg" width="30%">

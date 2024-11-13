@@ -4,6 +4,7 @@
 
 <div align="center">
 <h1 align="center">darkerADS<br>一个强强强力的去广告的规则</h1>
+
 <p>
   <a href="https://github.com/execute-darker/darkerADS">
     <img src="https://img.shields.io/github/last-commit/execute-darker/darkerADS?style=flat-square" alt="last update" />
