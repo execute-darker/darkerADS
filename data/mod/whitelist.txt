@@ -1,0 +1,8 @@
+@@||v2.get.sogou.com^$important
+@@||meituan.net^$important
+@@||api-unionid.meituan.com^$important
+@@||appsec-mobile.meituan.com^$important
+@@||bilibili.com^$important
+@@||biliapi.net^$important
+@@||target.microsoft.com^$important
+@@||browser.events.data.microsoft.com^$important
