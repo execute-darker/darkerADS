@@ -28,6 +28,10 @@ except Exception as e:
 # 创建临时文件夹
 os.makedirs("./tmp/", exist_ok=True)
 
+# 合并自定义规则
+subprocess.run("cp ./data/mod/adblock.txt ./tmp/adblock01.txt", shell=True)
+subprocess.run("cp ./data/mod/whitelist.txt ./tmp/adblock01.txt", shell=True)
+
 # 规则
 adblock = [
     "https://gp.adrules.top/adblock_plus.txt",
