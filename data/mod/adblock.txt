@@ -1,0 +1,9 @@
+||api-analytics-cn.zepp.com
+||api-middle.transfer.sec.miui.com^$important
+||api-installer.pt.xiaomi.com^$important
+||preview-api.installer.xiaomi.com^$important
+||test-api-installer.pt.xiaomi.com^$important
+||api.hybrid.intl.xiaomi.com^$important
+||milink.ac.mi.com^$important
+||link.g.mi.com^$important
+||connect-milink.g.mi.com^$important
