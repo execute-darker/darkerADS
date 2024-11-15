@@ -24,7 +24,6 @@ for file_path in file_list:
                   f"! Homepage: https://github.com/execute-darker/darkerADS\n" \
                   f"! Expires: 12 Hours\n" \
                   f"! Version: {beijing_time} (UTC+8)\n" \
-                  f"! Description: 适用于AdGuard的去广告规则, 合并优质上游规则并去重整理排列\n" \
                   f"! Description: Ad-blocking rules for AdGuard, combining high-quality upstream rules with deduplication and organized sorting.\n" \
                   f"! Total count: {line_count}\n" \
                   f"{content}"
