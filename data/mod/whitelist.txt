@@ -6,3 +6,4 @@
 @@||biliapi.net^$important
 @@||target.microsoft.com^$important
 @@||browser.events.data.microsoft.com^$important
+@@||*gateway*^$important
