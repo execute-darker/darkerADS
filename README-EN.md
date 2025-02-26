@@ -30,9 +30,9 @@
 <h2 id="a">🎯 Rule Subscription</h2>
 
 ```
-Last updated: 2025-02-26 09:13:13 (UTC+8) 
+Last updated: 2025-02-26 20:31:29 (UTC+8) 
 
-Adblock rule count: 455748 
+Adblock rule count: 455738 
 ``` 
 <details open>
 <summary>Rule List</summary>
